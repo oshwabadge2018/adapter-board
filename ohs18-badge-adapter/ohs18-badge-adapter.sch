@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x03_Top_Bottom J1
-U 1 1 5BB878EE
-P 4450 3700
-F 0 "J1" H 4500 4017 50  0000 C CNN
-F 1 "OHS18 badge J1" H 4500 3926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4450 3700 50  0001 C CNN
-F 3 "~" H 4450 3700 50  0001 C CNN
-	1    4450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 5BB87A68
 P 4450 2400
@@ -38,23 +27,23 @@ F 3 "~" H 4450 2400 50  0001 C CNN
 $EndComp
 Text GLabel 4250 2600 3    50   Input ~ 0
 GND
-Text GLabel 4750 3800 2    50   Input ~ 0
+Text GLabel 4800 3500 2    50   Input ~ 0
 GND
-Text GLabel 4550 2600 3    50   Input ~ 0
-TXD
 Text GLabel 4650 2600 3    50   Input ~ 0
+TXD
+Text GLabel 4550 2600 3    50   Input ~ 0
 RXD
 NoConn ~ 4750 2600
 NoConn ~ 4450 2600
 NoConn ~ 4350 2600
-NoConn ~ 4250 3800
-Text GLabel 4750 3600 2    50   Input ~ 0
+NoConn ~ 4300 3500
+Text GLabel 4300 3300 0    50   Input ~ 0
 RXD
-Text GLabel 4250 3600 0    50   Input ~ 0
+Text GLabel 4800 3300 2    50   Input ~ 0
 TXD
-Text GLabel 4250 3700 0    50   Input ~ 0
+Text GLabel 4300 3400 0    50   Input ~ 0
 EN
-Text GLabel 4750 3700 2    50   Input ~ 0
+Text GLabel 4800 3400 2    50   Input ~ 0
 IO0
 Text GLabel 3900 3100 2    50   Input ~ 0
 EN
@@ -64,7 +53,6 @@ Text GLabel 5150 3000 0    50   Input ~ 0
 GND
 Text GLabel 5550 3100 2    50   Input ~ 0
 IO0
-NoConn ~ 3000 1800
 Text Notes 5950 3950 0    50   ~ 0
 This adapter boards connect USB-to-serial cable to J1 header\non the 2018 Open Hardware Summit badge\n\nDesgined by Drew Fustini <drew@oshpark.com>\n\nRepo: https://github.com/oshwabadge2018/adapter-board\n\nDocumentation: https://oshwabadge2018.github.io/\n\nBlog: https://bit.ly/2E3CEXH\n\nFeatures:\n======\n- programming mode switch (grounds IO0 pin)\n- reset push button (grounds EN pin)\n- header for FTDI USB to serial cable (3.3V version)\n\nProcedure:\n=======\nThe slide switch on the adapter board will allow the ESP32 to enter\nprogramming mode by connecting the IO0 pin on J1 to ground. \n\nThe push button on the adapter board will reset the board by \nconnecting EN pin on J1 to ground.
 $Comp
@@ -110,4 +98,15 @@ F 12 "Active" H 3900 4400 60  0001 L CNN "Status"
 $EndComp
 NoConn ~ 3900 3300
 NoConn ~ 3500 3300
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5BB99ED8
+P 4500 3400
+F 0 "J1" H 4550 3717 50  0000 C CNN
+F 1 "OHS18 Badge" H 4550 3626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 4500 3400 50  0001 C CNN
+F 3 "~" H 4500 3400 50  0001 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
