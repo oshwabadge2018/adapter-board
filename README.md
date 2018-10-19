@@ -20,12 +20,12 @@ Order the PCB from OSH Park:
 
 * Header for FTDI usb-to-serial cable
   * TE AMP 9-146282-0-06
-  * 1x6 Connector Header 0.1" pitch
+  * 1x6 Pin Header 0.1" pitch
   * Digi-Key: [A34253-06-ND](https://www.digikey.com/short/jdmjhd)
 
 * Header to connect J1 socket on badge
   * Harwin M20-9720345
-  * 2x3 Connector Header 0.1" pitch
+  * 2x3 Pin Header 0.1" pitch
   * Digi-Key: [952-1921-ND](https://www.digikey.com/short/jdmj9p)
   
 * J1 header socket on the badge
