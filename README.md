@@ -6,7 +6,7 @@ Order the PCB from OSH Park:
 [Adapter board for USB-to-serial cable](https://oshpark.com/shared_projects/39CXLX65)
 
 ## Bill of Materials (BoM)
-* **[Digi-Key shopping cart](https://www.digikey.com/short/jdmpnf)**
+* **[Digi-Key shopping cart](https://www.digikey.com/short/jdb477)**
 
 * Switch for programming mode
   * E-Switch EG1218
