@@ -27,7 +27,11 @@ Order the PCB from OSH Park:
   * Harwin M20-9720345
   * 2x3 Connector Header 0.1" pitch
   * Digi-Key: [952-1921-ND](https://www.digikey.com/short/jdmj9p)
-
+  
+* J1 header socket on the badge
+  * Harwin 952-1781-ND
+  * 2x3 Header Socket  0.1" pitch
+  * Digi-Key: [M20-7830346](https://www.digikey.com/short/jdbtfc)
 
 ### Blog post
 [Open Hardware Summit badge: adapter board for USB-to-serial cable](http://blog.oshpark.com/2018/10/05/open-hardware-summit-badge-adapter-board-ftdi-cable/)
