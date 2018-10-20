@@ -1,13 +1,20 @@
 ## Adapter board for USB-to-serial cable
 adapter board to connect USB-to-serial cable to J1 header on Open Hardware Summit badge
 
-### OSH Park shared project
-Order the PCB from OSH Park:
-[Adapter board for USB-to-serial cable](https://oshpark.com/shared_projects/39CXLX65)
+[![assembled adapter board on badge](images/preview.jpg)](https://oshpark.com/shared_projects/39CXLX65)
 
-### Blog post
+### [OSH Park shared project](https://oshpark.com/shared_projects/39CXLX65)
+Order the PCB from OSH Park: [Adapter board for USB-to-serial cable](https://oshpark.com/shared_projects/39CXLX65)
+
+[![OSH Park PCB preview](images/preview.png)](https://oshpark.com/shared_projects/39CXLX65)
+
+[![order from OSH Park](images/order.png)](https://oshpark.com/shared_projects/39CXLX65)
+
+
+### [Blog post](http://blog.oshpark.com/2018/10/19/adapter-board-for-open-hardware-summit-badge/)
 [Adapter board for Open Hardware Summit badge](http://blog.oshpark.com/2018/10/19/adapter-board-for-open-hardware-summit-badge/)
 > The badge features an ESP32 microcontroller running MicroPython firmware.  The firmware provides a Python interpreter prompt (REPL) on the serial port which allows interactive programming of the badge!
+[![assembled adapter board on badge](images/console.jpg)](http://blog.oshpark.com/2018/10/19/adapter-board-for-open-hardware-summit-badge/)
 
 ### Bill of Materials (BoM)
 * **[Digi-Key shopping cart](https://www.digikey.com/short/jdb477)**
