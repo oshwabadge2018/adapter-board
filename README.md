@@ -1,7 +1,7 @@
 ## Adapter board for USB-to-serial cable
 adapter board to connect USB-to-serial cable to J1 header on Open Hardware Summit badge
 
-[![assembled adapter board on badge](images/preview.jpg)](https://oshpark.com/shared_projects/39CXLX65)
+[![assembled adapter board on badge](images/preview.jpg)](http://blog.oshpark.com/2018/10/19/adapter-board-for-open-hardware-summit-badge/)
 
 ### [OSH Park shared project](https://oshpark.com/shared_projects/39CXLX65)
 Order the PCB from OSH Park:
